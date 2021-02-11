@@ -68,7 +68,7 @@ MODULES = [
     'voting',
 ]
 
-BASEURL = 'https://egc-1819-edubotdom-1530.herokuapp.com/'
+BASEURL = 'https://egc-1819-edubotdom-1530.herokuapp.com'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
