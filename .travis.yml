@@ -21,3 +21,10 @@ install:
 script: 
 - python manage.py test
 if: branch=master
+deploy:
+  provider: heroku
+  app: egc-1819-edubotdom-1530
+  strategy: git
+  api_key: $HEROKU_AUTH_TOKEN
+  on:
+   branch: master
